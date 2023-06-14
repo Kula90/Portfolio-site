@@ -1,0 +1,39 @@
+/* Add some basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the navigation bar sticky */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add some spacing and style for the sections */
+section {
+    min-height: 100vh;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Give each section a different background color for clarity */
+#home { background-color: lightgray; }
+#about { background-color: lightskyblue; }
+#portfolio { background-color: lightgreen; }
+#resume { background-color: lightcoral; }
+#contact { background-color: lightgoldenrodyellow; }
